@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   This module contains the utility class to identify the device type
                    DESC
 
-  spec.homepage = "https://github.com/prashantLalShrestha/Localization"
+  spec.homepage = "https://github.com/prashantLalShrestha/LocalizeX"
   # spec.screenshots = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '11.0'
   # spec.source = { :git => '' }
   spec.source = { 
-    :git => "https://github.com/prashantLalShrestha/Localization.git", :tag => spec.version.to_s
+    :git => "https://github.com/prashantLalShrestha/LocalizeX.git", :tag => spec.version.to_s
   }
   
   spec.source_files = 'Sources/**/*.{swift}'
