@@ -1,5 +1,5 @@
 //
-//  LocalizationConfigurable.swift
+//  Localizable.swift
 //  LocalizeX
 //
 //  Created by Prashant Shrestha on 5/20/20.
@@ -8,12 +8,12 @@
 
 import UIKit
 
-public protocol LocalizationConfigurable {
+public protocol Localizable {
     func languageChanged()
 }
 
 
-public extension LocalizationConfigurable {
+public extension Localizable {
     func registerForLocalizeEvent() {
         NotificationCenter.default.addObserver(forName: NSNotification.Name(LCLLanguageChangeNotification), object: nil, queue: nil) {  (notification) in
             self.languageChanged()

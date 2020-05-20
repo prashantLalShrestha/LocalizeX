@@ -17,7 +17,7 @@
 		8F14D3762472F4EA0017DF70 /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F14D36F2472F4EA0017DF70 /* Localize.swift */; };
 		8F14D3772472F4EA0017DF70 /* String+LocalizeBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F14D3702472F4EA0017DF70 /* String+LocalizeBundle.swift */; };
 		8F14D3782472F4EA0017DF70 /* String+LocalizedBundleTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F14D3712472F4EA0017DF70 /* String+LocalizedBundleTableName.swift */; };
-		8F86DB552474D15C00BE8F10 /* LocalizationConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86DB542474D15C00BE8F10 /* LocalizationConfigurable.swift */; };
+		8F86DB552474D15C00BE8F10 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86DB542474D15C00BE8F10 /* Localizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		8F14D36F2472F4EA0017DF70 /* Localize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localize.swift; sourceTree = "<group>"; };
 		8F14D3702472F4EA0017DF70 /* String+LocalizeBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+LocalizeBundle.swift"; sourceTree = "<group>"; };
 		8F14D3712472F4EA0017DF70 /* String+LocalizedBundleTableName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+LocalizedBundleTableName.swift"; sourceTree = "<group>"; };
-		8F86DB542474D15C00BE8F10 /* LocalizationConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationConfigurable.swift; sourceTree = "<group>"; };
+		8F86DB542474D15C00BE8F10 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 			children = (
 				8F14D36A2472F4EA0017DF70 /* Extensions */,
 				8F14D3692472F4EA0017DF70 /* Localization.swift */,
-				8F86DB542474D15C00BE8F10 /* LocalizationConfigurable.swift */,
+				8F86DB542474D15C00BE8F10 /* Localizable.swift */,
 				8F14D36D2472F4EA0017DF70 /* Localize */,
 			);
 			path = Sources;
@@ -268,7 +268,7 @@
 				8F14D3742472F4EA0017DF70 /* Data+Ext.swift in Sources */,
 				8F14D3782472F4EA0017DF70 /* String+LocalizedBundleTableName.swift in Sources */,
 				8F14D3732472F4EA0017DF70 /* String+Ext.swift in Sources */,
-				8F86DB552474D15C00BE8F10 /* LocalizationConfigurable.swift in Sources */,
+				8F86DB552474D15C00BE8F10 /* Localizable.swift in Sources */,
 				8F14D3762472F4EA0017DF70 /* Localize.swift in Sources */,
 				8F14D3772472F4EA0017DF70 /* String+LocalizeBundle.swift in Sources */,
 				8F14D3722472F4EA0017DF70 /* Localization.swift in Sources */,
