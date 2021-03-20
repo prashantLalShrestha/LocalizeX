@@ -8,14 +8,14 @@
 
 import UIKit
 
-public protocol Localizable {
+public protocol Localizable: class {
     func languageChanged()
 }
 
 
 public extension Localizable {
     func registerForLocalizeEvent() {
-        NotificationCenter.default.addObserver(forName: NSNotification.Name(LCLLanguageChangeNotification), object: nil, queue: nil) {  (notification) in
+        NotificationCenter.default.addObserver(forName: NSNotification.Name(LCLLanguageChangeNotification), object: nil, queue: nil) { [unowned self] (notification) in
             self.languageChanged()
         }
     }
