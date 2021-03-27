@@ -15,7 +15,7 @@ public protocol Localizable: class {
 
 public extension Localizable {
     func registerForLocalizeEvent() {
-        NotificationCenter.default.addObserver(forName: NSNotification.Name(LCLLanguageChangeNotification), object: nil, queue: nil) { [unowned self] (notification) in
+        NotificationCenter.default.addObserver(forName: NSNotification.Name(LCLLanguageChangeNotification), object: self, queue: nil) { [unowned self] (notification) in
             self.languageChanged()
         }
     }
